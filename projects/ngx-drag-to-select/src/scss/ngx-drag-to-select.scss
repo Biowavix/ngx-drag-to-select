@@ -28,6 +28,7 @@
 
 .dts-select-container:not(.dts-custom) {
   .dts-select-item.selected {
+    background-color: $selected-item-background-color;
     @if $selected-item-border {
       border: $selected-item-border-size solid $selected-item-border-color;
     }
